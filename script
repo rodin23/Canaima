@@ -1,0 +1,4 @@
+#!/bin/bash
+cp README.md README2.md
+rm README2.md
+echo "fin de script"
