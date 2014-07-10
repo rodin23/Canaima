@@ -1,0 +1,11 @@
+PARA CREAR Y EJECUTAR UNA ISO
+
+1-Crear carptea donde va a guardarse la iso
+2-Instalamos el live-build
+3-Ejecutamos los sigueintes comandos
+	a-lb config (script que contiene paquetes que seran instalados)
+	b-lb bootstrap
+	c-lb chroot (crea lo que llamaremos jaula)
+	d-chroot chroot (de esta forma entramos en la jaula)
+	e-lb binary o lb binary_iso (para crear el binario de la iso)
+4-Instalamos qemu (maquina virtual en consola y de esta forma probamos como va quedando la iso)

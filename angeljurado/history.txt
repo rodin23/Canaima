@@ -1,0 +1,500 @@
+  165  ls
+  166  lb -chroot
+  167  lb chroot/
+  168  lb chroot
+  169  ls
+  170  cp scritp.sh /home/usuario/control/canaima/
+  171  ls
+  172  clear
+  173  ls
+  174  chroot 
+  175  cd chroot/
+  176  ls
+  177  cd ..
+  178  chroot chroot/
+  179  chroot chroot/
+  180  cd ..
+  181  cp -R isos/ respaldo_iso
+  182  ls
+  183  sl -l
+  184  ls -l
+  185  cd respaldo_iso/
+  186  ls
+  187  c ..
+  188  cd ..
+  189  cd control/canaima/
+  190  ls 
+  191  git add script
+  192  git commit -a
+  193  git push 
+  194  cd ..
+  195  cd ..
+  196  cd isos/
+  197  lb binary
+  198  ls
+  199  ls -l
+  200  cd binary/
+  201  ls
+  202  cd ..
+  203  nano binary.packages 
+  204  cd chroot/boot/
+  205  ls
+  206  cd ..
+  207  ls
+  208  ls
+  209  cd ..
+  210  ls
+  211  cd. .
+  212  ls -l
+  213  cd ..
+  214  cat /etc/apt/sources.list
+  215  cat /etc/apt/sources.list
+  216  cat /etc/resolv.conf 
+  217  aptitude search linux-ima
+  218  uname -a
+  219  aptitude install linux-image-3.2.0-4-686-pae
+  220  uname -a
+  221  exit
+  222  cd isos/
+  223  ls
+  224  ls -l
+  225  cd config/
+  226  ls 
+  227  nano bootstrap 
+  228  nano chroot 
+  229  cd ..
+  230  ls -l
+  231  chroot chroot/
+  232  lb binary
+  233  ls
+  234  ls -l
+  235  chroot chroot/
+  236  cd chroot/boot/
+  237  ls
+  238  cp -R /boot/vmlinuz-3.2.0-4-686-pae 
+  239  ls
+  240  cd ..
+  241  cd ..
+  242  ls
+  243  lb binary
+  244  cd chroot/boot/
+  245  cp -R /boot/vmlinuz-3.2.0-4-686-pae .
+  246  ls
+  247  cd ..
+  248  cd ..
+  249  lb binary
+  250  cd chroot/boot/
+  251  cp -R /boot/initrd.img-3.2.0-4-686-pae .
+  252  cd ..
+  253  cd ..
+  254  lb binary
+  255  ls
+  256  aptitude install qemu
+  257  cd ..
+  258  cd control/canaima/
+  259  ls
+  260  mv script.sh scritp-semilla.sh
+  261  ls
+  262  ls -l
+  263  mv scritp.sh script-semilla.sh
+  264  ls
+  265  ls -l
+  266  git add script-semilla.sh
+  267  git commit -a
+  268  git push
+  269  cd..
+  270  cd..
+  271  cd ..
+  272  cd ..
+  273  cd isos/
+  274  qemu-img create prueba.img 2G
+  275  ls -l
+  276  ls -la
+  277  du -sh prueba.img 
+  278  qemu -hda prueba.img -cdrom binary.iso -boot d -m 512
+  279  qemu -hda prueba.img -cdrom binary.iso -boot d -m 512
+  280  aptitude install X11
+  281  qemu -hda prueba.img -cdrom binary.iso -boot d -m 512
+  282  clear
+  283  qemu -hda prueba.img -cdrom binary.iso -boot d -m 512
+  284  aptitude search qemu-dgdb
+  285  aptitude search qemu-
+  286  aptitude install qemu-kvm-dbg 
+  287  qemu -hda prueba.img -cdrom binary.iso -boot d -m 512
+  288  aptitude search qemu-
+  289  aptitude install qemu-launcher 
+  290  qemu-launcher 
+  291  aptitude search X11
+  292  aptitude install qemu-launcher 
+  293  qemu -hda prueba.img -cdrom binary.iso -boot d -m 512
+  294  cd ..
+  295  ls -l
+  296  cp respaldo_iso/ respaldo_iso3
+  297  cp respaldo_iso respaldo_iso3
+  298  cp -R respaldo_iso respaldo_iso3
+  299  ls
+  300  cd respaldo_iso
+  301  chroot chroot
+  302  cd ..
+  303  ls
+  304  cp -R respaldo_iso respaldo_iso4
+  305  cd respaldo_iso
+  306  lb binary
+  307  ls
+  308  ls -l
+  309  cd ..
+  310  cd respaldo_iso4/
+  311  chroot chroot
+  312  chroot chroot
+  313  cd ..
+  314  cp -R respaldo_iso4 respaldo_iso5
+  315  cd respaldo_iso4
+  316  chroot chroot
+  317  lb binary
+  318  qemu-launcher 
+  319  qemu-launcher
+  320  qemu-launcher
+  321  qemu-launcher
+  322  cd ..
+  323  cp respaldo_iso5 /var/www
+  324  cp -R respaldo_iso5 /var/www
+  325  exit
+  326  cd control/canaima/
+  327  git pull
+  328  cd ..
+  329  cd Cursoaslccs/
+  330  ls
+  331  git pull
+  332  ls
+  333  cp qemu.txt /media/RODIN/Curso-STA/
+  334  git add qemu.txt
+  335  git commit -a
+  336  cd ..
+  337  cd Cursoaslccs/
+  338  cp qemu.txt /home/usuario/control/canaima/
+  339  cd ..
+  340  cd canaima/
+  341  ls
+  342  git add qemu.txt
+  343  git commit -a
+  344  git push
+  345  cd ..
+  346  cd ..
+  347  cd iso
+  348  ls
+  349  cd respaldo_iso1
+  350  ls
+  351  cd ..
+  352  cd respaldo_iso3
+  353  ls
+  354  cd ..
+  355  cp -R respaldo_iso1 /media/RODIN/Curso-STA/
+  356  cd respaldo_iso1
+  357  sl
+  358  ls -l
+  359  cd /media/RODIN/Curso-STA/
+  360  ls -l
+  361  rm -Rf respaldo_iso1/
+  362  cd /home/usuario/iso/respaldo_iso1
+  363  ls -l
+  364  cp -R binary.iso /media/RODIN/Curso-STA/
+  365  cd isos/
+  366  ls
+  367  ls -l
+  368  cd ..
+  369  ls -l
+  370  cd isos/
+  371  ls
+  372  ls -l
+  373  wget http://http://150.188.18.131/res.tar
+  374  wget http://http://150.188.18.131/res.tar
+  375  wget http://150.188.18.131/res.tar
+  376  cd ..
+  377  ls 
+  378  cd Descargas/
+  379  ls
+  380  mv res.tar /home/usuario/isos/
+  381  ls
+  382  cd ..
+  383  cd isos/
+  384  ls -l
+  385  tar -xvf res.tar 
+  386  ls -l
+  387  rm -R res.tar 
+  388  rm -R Respaldo_isos-4/
+  389  wget http://150.188.18.131/res.tar
+  390  tar -xvf res.tar 
+  391  ls
+  392  ls -l
+  393  cd Respaldo_isos-5/
+  394  ls
+  395  cd ..
+  396  cd ..
+  397  cd control/
+  398  ls
+  399  cd canaima/
+  400  ls
+  401  ls -l
+  402  cd ..
+  403  cd ..
+  404  cd isos/
+  405  ls
+  406  ls -l
+  407  cd ..
+  408  cd isos/
+  409  ls
+  410  cd ..
+  411  mkdir iso
+  412  cd isos/
+  413  ls
+  414  mv Respaldo_isos-5/ /home/usuario/iso
+  415  ls
+  416  cd ..
+  417  cd iso
+  418  ls
+  419  mv Respaldo_isos-5/ respaldo_iso1
+  420  ls
+  421  cd respaldo_iso1/
+  422  chroot chroot
+  423  touch log.txt
+  424  nano log.txt 
+  425  ls -l
+  426  nano config/
+  427  cd config/
+  428  ls
+  429  nano binary 
+  430  nano binary 
+  431  nano binary 
+  432  nano bootstrap 
+  433  nano binary 
+  434  nano bootstrap 
+  435  nano bootstrap 
+  436  cd ..
+  437  chroot chroot
+  438  nano log.txt 
+  439  cd ..
+  440  cp -R respaldo_iso1/ respaldo_iso2
+  441  cd respaldo_iso1
+  442  lb binary
+  443  nano /etc/apt/sources.list
+  444  aptitude update
+  445  lb binary
+  446  lb binary_iso
+  447  ls -l
+  448  nano /etc/apt/sources.list
+  449  nano /etc/apt/sources.list
+  450  aptitude update
+  451  cd config/
+  452  nano bootstrap 
+  453  cd ..
+  454  lb binary
+  455  cd ..
+  456  rm _R respaldo_iso1
+  457  rm -Rf respaldo_iso1
+  458  cp -R respaldo_iso2/ .respaldo_iso1
+  459  ls
+  460  ls -la
+  461  mv .respaldo_iso1/ respaldo_iso1
+  462  ls -la
+  463  ls -l
+  464  cd respaldo_iso
+  465  cd respaldo_iso1
+  466  cd config/
+  467  nano bootstrap 
+  468  cd ..
+  469  ls binary
+  470  lb binary
+  471  cd ..
+  472  rm -Rf respaldo_iso1
+  473  cp -R respaldo_iso2/ respaldo_iso1 .
+  474  cp -R respaldo_iso2/ respaldo_iso1
+  475  ls -l
+  476  cd respaldo_iso
+  477  cd respaldo_iso1
+  478  cd config/
+  479  gdit bootstrap 
+  480  gedit bootstrap 
+  481  ls 
+  482  rm bootstrap 
+  483  mv /home/usuario/bootstrap .
+  484  ls 
+  485  ls -l
+  486  cd..
+  487  cd ..
+  488  lb binary
+  489  ls
+  490  ls -l
+  491  du -sh binary.iso
+  492  qemu -cdrom binary.iso -boot d -m 1024
+  493  cd ..
+  494  ls 
+  495  cd respaldo_iso1
+  496  qemu-img create imagen.img 2G
+  497  qemu .hda imagen.img -cdrom binary.iso -boot d -m 1024
+  498  qemu -hda imagen.img -cdrom binary.iso -boot d -m 1024
+  499  exit
+  500  cd /opt/Cursoaslccs/angeljurado/
+  501  touch curso1.txt curso2.txt curso3.txt curso4.txt curso5.txt
+  502  ls
+  503  ls -lt
+  504  chmod 065
+  505  chmod 065 curso1.txt 
+  506  ls -lt
+  507  chmod 726 curso2.txt 
+  508  ls -lt
+  509  chmod 111 curso3.txt 
+  510  chmod 227 curso4.txt 
+  511  chmod 064 curso5.txt 
+  512  ls -lt
+  513  fdisk 
+  514  fdisk -l
+  515  clear
+  516  mkdir libreofficewriter
+  517  cd libreofficewriter/
+  518  ps aux
+  519  ps aux | grep libreoffice
+  520  ps aux | grep libreoffice >> echo a.txt
+  521  libreofficewriter
+  522  ps aux | grep libreoffice
+  523  ps aux | grep libreoffice >> echo a.txt
+  524  ps aux | grep libreoffice >> echo a.txt .
+  525  ps aux | grep libreoffice >> echo a.txt /opt/Cursoaslccs/angeljurado/libreofficewriter/
+  526  ls
+  527  nano echo 
+  528  rm echo 
+  529  ps aux | grep libreoffice >>  a.txt /opt/Cursoaslccs/angeljurado/libreofficewriter/
+  530  ps aux | grep libreoffice >> a.txt /opt/Cursoaslccs/angeljurado/libreofficewriter/
+  531  ls 
+  532  nano a.txt 
+  533  ps aux | grep libreoffice > a.txt /opt/Cursoaslccs/angeljurado/libreofficewriter/
+  534  ps aux | grep libreoffice >> echo a.txt
+  535  ls
+  536  nano a.txt 
+  537  rm echo 
+  538  rm a.txt 
+  539  ps aux | grep libreoffice
+  540  ps aux | grep libreoffice >> a.txt
+  541  nano a.txt 
+  542  cd ..
+  543  mkdir procesador
+  544  cd procesador/
+  545  uname -a
+  546  uname -a >> procesador.txt
+  547  ls
+  548  nano procesador.txt 
+  549  cd ..
+  550  man interfaces 
+  551  dhclient
+  552  aptitude install sl
+  553  ls
+  554* 
+  555  apt-get source sl
+  556  ls
+  557  aptitude search sl
+  558  aptitude search sl
+  559  ls -l
+  560  ls -la
+  561  apt-get source sl
+  562  nano /etc/apt/sources.list
+  563  apt-get source sl
+  564  ls
+  565  aptitude update
+  566  apt-get source sl
+  567  ls -l
+  568  cd sl-3.03/
+  569  ls
+  570  nano sl.h
+  571  CD ..
+  572  cd ..
+  573  dpkg-buildpackage -us -uc
+  574  cd sl-3.03/
+  575  dpkg-buildpackage -us -uc
+  576  ls -l
+  577  nano sl.h 
+  578  dpkg-buildpackage -us -uc
+  579  aptitude search dpkg-
+  580  aptitude search db
+  581  aptitude search deb
+  582  dpkg-buildpackage 
+  583  dpkg-source commit
+  584  dpkg-source-commit
+  585  dpkg-source -commit
+  586  dpkg-source -commit sl
+  587  dpkg-source --commit
+  588  dpkg-buildpackage -us -uc
+  589  ls
+  590  ls -l
+  591  ls -la
+  592  sl
+  593  nano sl
+  594  nano sl.h
+  595  cd ..
+  596  ls -l
+  597  dpkg -i sl_3.03-17_i386.deb 
+  598  sl
+  599  clear
+  600  ls -l
+  601  cd sl-3.03/
+  602  ls
+  603  cd ..
+  604  sl
+  605  ls
+  606  nano sl_3.03-17_i386.changes 
+  607  cd sl-3.03/
+  608  ls
+  609  clear
+  610  cd ..
+  611* 
+  612  man ifconfig 
+  613  ifconfig -a
+  614  adduser prueba
+  615  passwd prueba 
+  616  mkdir canaima-semilla
+  617  cd canaima-semilla/
+  618  cd /usr/share/
+  619  ls
+  620  cd canaima-semilla/
+  621  cd profiles/
+  622  ls -l
+  623  ls
+  624  ls
+  625  cd primera-base/
+  626  ls
+  627  nano profile.conf 
+  628  cd ..
+  629  cd primera-base/
+  630  cd ..
+  631  cp -R primera-base/ /opt/Cursoaslccs/angeljurado/
+  632  cd /opt/Cursoaslccs/angeljurado/
+  633  la
+  634  ls
+  635  mv R- primera-base/ /opt/Cursoaslccs/angeljurado/canaima-semilla/
+  636  mv -R primera-base/ /opt/Cursoaslccs/angeljurado/canaima-semilla/
+  637  mv primera-base/ /opt/Cursoaslccs/angeljurado/canaima-semilla/
+  638  mv primera-base /opt/Cursoaslccs/angeljurado/canaima-semilla/
+  639  ls
+  640  cd canaima-semilla/
+  641  ls
+  642  cd primera-base/
+  643  ls
+  644  nano profile.conf 
+  645  c-s-gui
+  646  ls
+  647  echo pasos-creando_iso
+  648  ls
+  649  touch pasos-creando_iso
+  650  ls
+  651  nano pasos-creando_iso 
+  652  cd ..
+  653  cd ..
+  654  clear
+  655  cd canaima-semilla/
+  656  ls
+  657  cd primera-base/
+  658  nano pasos-creando_iso 
+  659  cd ..
+  660  cd ..
+  661  aptitude install debmirror
+  662  ls -lt
+  663  man debmirror }
+  664  history >> history.txt

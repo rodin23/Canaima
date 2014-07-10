@@ -1,0 +1,103 @@
+Actividad. Curso de Adminsitracion en Linux
+
+
+- Entrar como root, ejecutar
+
+history -c
+
+
+1-Crear un archivo Examen-(Número de la Cédula de Identidad) con los siguientes datos:
+-Nombre Completo: Angel Jurado
+-Cédula de Indentidad: 15.578.765
+-Dirección de correo electrónico: rodin.jurado@gmail.com
+-Institución a la que pertenece: MPPDPSGG
+
+5- Crear 5 archivos llamados y cambiar permisologia
+ -curso1.txt   ---RW-R-X
+
+ -curso2.txt   RWX-W-RW-
+
+ -curso3.txt   --X--X--X
+
+ -curso4.txt   -W--W-RWX
+
+ -curso5.txt   ---RW-R--
+
+
+6-Como puedo visualizar las particiones del disco duro
+fdisk -l
+
+7-Como matamos un proceso del computador
+kill -9 numero del proceso
+
+8-Crear un carpeta llamada libreofficewriter. abrir el libreofficewriter, buscar el proceso de libreoffice y lo guardan en archivo llamado a.txt
+        
+
+9-Crear un carpeta llamada procesador
+	mkdir procesador
+       -guardar la busqueda en archivo llamado procesador.txt del tipo de computadora
+
+
+10-Como configuras una interfaz de red con dhcp
+dhclient
+
+11-Que sucede cuando ejecutas el
+comando: touch registros
+- Crea un archivo llamado registros
+	
+12-El comando: more examen
+
+- Despliega el contenido del archivo examen, una pantalla a la vez.
+
+13-crear un carpeta sl
+descargar el paquete fuente de sl, modificar el tren 
+con su nombre generar un nuevo paquete, e instalarlo
+
+	
+14-comando para listar redes inalambricas.
+ifconfig -a
+
+16- Como agregamos el usuario y gestionamos el cambio de contraseña
+adduser nombre del usuario
+passwd nombre de usuario, contraseña nueva y confirmacion de la misma
+
+
+17-crear un carpeta canaima-semilla, copiar un sabor desde primera-base
+  llamarlo con el nombre de ustedes, editarlo todos los perfil personalizado.
+   subir dicha carpeta a github.
+   - agregar un txt, con los pasos para ejecutar la creacion de la .iso
+	
+
+18- donde se modifican los repositorios en debian, 
+   - cuales son los pasos para ejecutar un repositorio nuevo.
+/etc/apt/source.list
+-mkdir curso   ---- creamos el directorio del nuevo protecto
+-apt-mirror    ---- lo ejecutamos
+-aptitude install apache2  ---- instalamos apache
+creamos un enlace simbolico en 
+/var/www# ln -s carpeta origen
+
+	
+
+19- Las particiones de un disco fisico se nombran mediante el nombre de dispositivo y el
+número de partición:
+   Device Boot      Start         End      Blocks   Id  System
+/dev/sdf1              32    62530623    31265296    c  W95 FAT32 (LBA)dev/hda1
+/dev/sda1   *          64   208387892   104193914+  83  Linuxdev/sda2
+
+20- Como hago un repositorio con debmirror, comando.
+aptitude install debmirror
+
+21- Guardar el history en .txt para verificar todo lo anterior fue realizado por ti.
+history >> history.txt 
+
+22- crear un archivo permiso.txt y que los dueños sean root y usuario., ejecutar cat.
+touch permiso.txt
+chgrp usuario permiso.txt
+	
+23- Como matar un procesos usando top.
+ejecutamos el comando top, identificamos el numero del proceso el cual queremos finalizar, el mismo esta identificado en la primera columna con el enunciado PID
+luego salimos con q
+y ejecuetamos 
+kill -9 numeor del proceso
+

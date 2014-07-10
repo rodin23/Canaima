@@ -1,0 +1,80 @@
+    1  aptitude install flashplugin-nonfree
+    3  aptitude update
+    4  aptitude install libreoffice base
+    5  aptitude install gcc
+    6  aptitude install gbd
+    7  aptitude search gbd
+    8  aptitude search ddd
+    9  aptitude search gd
+   10  aptitude install gdb
+   15  aptitude install libc.dev
+   16  aptitude search libc
+   19  aptitude install libc6-dev
+   35  aptitude install buid-essentiel
+   36  aptitude install buid-essential
+   37  aptitude install build-essential
+   38  aptitude search build-essential
+   40  aptitude install gcc-doc
+   41  aptitude install gcc-doc
+   46  aptitude install geany-plugin-gdb
+   47  aptitude search geany-plugin-gdb
+   48  aptitude search geany-plugin-gdb
+   52  aptitude search anjuta
+   53  aptitude install anjuta
+   56  aptitude search autogen
+   57  aptitude install autogen
+   58  aptitude search automake
+   59  aptitude install automake autoconf
+   60  aptitude install automake autoconf
+   62  apt-get install build-essential
+   65  aptitude install filezilla
+   68  aptitude search git
+   69  aptitude install git
+   70  aptitude search git
+  242  aptitude install nsss-update locate
+  243  aptitude install nsss-updatedb locate
+  244  aptitude install nsss-updatedb locate
+  245  aptitude install nsss-updatedb
+  246  aptitude install nsss-updatedb locate
+  247  aptitude install nss-updatedb locate
+  261  nano /etc/apt/sources.list
+  262  aptitude update
+  264  aptitude grandr
+  265  aptitude install grandr
+  266  nano /etc/apt/sources.list
+  267  aptitude update
+  268  nano /etc/apt/sources.list
+  269  aptitude update
+  270  nano /etc/apt/sources.list
+  271  aptitude update
+  272  nano /etc/apt/sources.list
+  273  aptitude update
+  274  nano /etc/apt/sources.list
+  275  aptitude update
+  276  nano /etc/apt/sources.list
+  277  aptitude update
+  278  nano /etc/apt/sources.list
+  279  nano /etc/apt/sources.list
+  280  nano /etc/apt/sources.list
+  281  aptitude update
+  285  apt-get source sl
+  287  aptitude install sl
+  289  aptitude install build-essential dpkg-dev
+  290  man aptitude 
+  291  aptitude remove --purge sl
+  292  man aptitude 
+  293  aptitude help
+  295  aptitude search libreo
+  296  aptitude help
+  297  aptitude show sl
+  298  aptitude search bb > bb.txt
+  300  aptitude install bb
+  302  aptitudeclear
+  310  apt-get source bb
+  315  aptitude search bb
+  335  aptitude install cdbs debhelper 
+  337  aptitude install libncurses5-dev 
+  338  aptitude install cdbs debhelper 
+  346  apt-get source bmon 
+  380  history | grep apt
+  381  history | grep apt >>HISTORIAL
